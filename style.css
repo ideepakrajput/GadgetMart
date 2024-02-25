@@ -1,0 +1,466 @@
+/* Header */
+.nav-link {
+    font-weight: bold;
+    color: black !important;
+    font-size: 20px;
+}
+
+.navbar {
+    background-color: white !important;
+    padding: 10px 30px;
+}
+
+.nav-link:hover {
+    color: #A22C2C !important;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.navbar-brand:hover {
+    color: black;
+}
+
+.mybutton {
+    background-color: #A22C2C;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 40px;
+}
+
+.mybutton:hover {
+    color: white;
+}
+
+/* Header Swiper */
+.headerSwiper {
+    position: relative;
+}
+
+.headerSwiper img {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    z-index: 100;
+}
+
+/* About */
+.about-sec {
+    display: flex;
+    padding: 100px 100px;
+    gap: 70px;
+    background-color: #f4f6f4;
+    align-items: center;
+}
+
+.about-sec img {
+    width: 300px;
+    margin: 0 0 0 50px;
+}
+
+.about-sec h1 {
+    font-weight: bold;
+}
+
+.about-sec p {
+    line-height: 28.8px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about hr {
+    width: 80px;
+    height: 2px;
+    color: black;
+    opacity: 1;
+    margin-left: 10px;
+}
+
+.about button {
+    align-self: flex-start;
+}
+
+/* Products */
+
+.products-sec {
+    padding: 0 100px;
+    text-align: center;
+    background-color: #f4f6f4;
+}
+
+.products-header {
+    width: 50%;
+    margin: 0 auto 46px;
+}
+
+.products-sec hr {
+    width: 100px;
+    height: 2px;
+    color: black;
+    opacity: 1;
+    margin: 30px auto;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.product {
+    flex: 0 0 33.33%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.product h3 {
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.product img {
+    width: 100%;
+}
+
+/* Brands */
+
+.brands {
+    padding: 30px;
+    background-color: #f4f6f4;
+    text-align: center;
+}
+
+.brands-header {
+    font-weight: bold;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Why Us */
+
+.why-us {
+    padding: 30px 0;
+    background-color: #f4f6f4;
+}
+
+.why-us h1 {
+    text-align: center;
+    font-weight: bold;
+    margin: 40px 0;
+}
+
+.qualities {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
+}
+
+.quality {
+    display: flex;
+    gap: 20px;
+    flex: 0 0 33.33%;
+    padding: 10px;
+}
+
+.quality img {
+    width: 70px;
+    height: 70px;
+}
+
+.why-us button {
+    display: block;
+    margin: 30px auto;
+}
+
+/* Contact */
+
+.contact-sec {
+    display: flex;
+    padding: 50px 100px;
+    background-color: #f4f6f4;
+}
+
+.contact {
+    flex: 33.33%;
+    padding: 20px;
+}
+
+.contact-icon {
+    margin-top: 40px;
+}
+
+.contact-icon i {
+    font-size: 20px;
+    margin-right: 20px;
+    color: #4E5652;
+}
+
+.contact-icon i:hover {
+    color: #A22C2C;
+}
+
+.contact h5 {
+    line-height: 50px;
+}
+
+.contact-form {
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 30px 4px;
+    padding-bottom: 50px;
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.form-name {
+    display: flex;
+    gap: 15px;
+}
+
+/* Reviews */
+.reviews-sec {
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.reviews-sec h1 {
+    padding: 40px;
+}
+
+.card {
+    background-color: #A22C2C;
+    color: white;
+    padding: 40px 30px;
+    border-radius: 10px;
+}
+
+.star {
+    padding: 30px;
+}
+
+.star i {
+    padding: 5px;
+}
+
+.reviews-sec img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: relative;
+    top: -30px;
+}
+
+.reviews-sec h5 {
+    position: relative;
+    top: -20px;
+}
+
+.reviews-sec p {
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+/* Footer  */
+.footer-sec {
+    display: flex;
+    color: white;
+    background-color: black;
+    padding: 30px 30px 0 30px;
+}
+
+.footer-element {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-icon {
+    margin-top: 60px;
+}
+
+.footer-icon i {
+    border: 1px solid #4E5652;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.footer-icon i:hover {
+    cursor: pointer;
+    background-color: #4E5652;
+}
+
+.footer-element:nth-child(2) {
+    flex: .7;
+}
+
+.footer-element h2 {
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.footer-element p {
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.footer-element a,
+.footer-element h5,
+.header h5,
+.header a,
+.contact h5,
+.contact a {
+    line-height: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+.contact a,
+.contact h5 {
+    color: black;
+}
+
+.footer-element a:hover,
+.footer-element h5:hover,
+.contact h5:hover,
+.contact a:hover {
+    color: #A22C2C;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4E5652;
+    color: white;
+    padding: 20px 100px 0;
+}
+
+footer h6 {
+    font-weight: normal;
+    padding: 10px;
+}
+
+
+/* For Phone */
+@media only screen and (max-width: 767px) {
+    .overlay-text {
+        font-size: 30px;
+    }
+
+    .enquire {
+        display: none;
+    }
+
+    /* About */
+    .about-sec {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .about-sec img {
+        margin: auto;
+        width: 100%;
+    }
+
+    .about-sec h1 {
+        font-weight: bold;
+    }
+
+    .about-sec p {
+        line-height: 28.8px;
+    }
+
+    .about {
+        gap: 20px;
+    }
+
+    /* Products */
+
+    .products-sec {
+        padding: 20px;
+        padding-top: 100px;
+    }
+
+    .products-header {
+        width: 100%;
+        margin: 0 auto 46px;
+    }
+
+    .product {
+        flex: 0 0 100%;
+    }
+
+    /* Why Us */
+
+    .qualities {
+        row-gap: 20px;
+    }
+
+    .quality {
+        flex: 0 0 50%;
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .why-us button {
+        margin: 10px auto;
+    }
+
+    /* Contact */
+
+    .contact-sec {
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+
+    .contact {
+        flex: 1;
+        padding: 0px;
+    }
+
+    /* Reviews */
+    .reviews-sec {
+        padding: 10px 20px;
+    }
+
+    /* Footer  */
+    .footer-sec {
+        flex-direction: column;
+    }
+
+
+    footer {
+        flex-direction: column;
+        padding: 20px 20px 0;
+    }
+
+    footer h6 {
+        font-weight: normal;
+        padding: 10px;
+        text-align: center;
+    }
+}
